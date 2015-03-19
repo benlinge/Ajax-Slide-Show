@@ -1,0 +1,128 @@
+@font-face{
+    font-family:main-font;
+    src:url(../fonts/Raleway-Light.ttf)
+}
+html {
+    font-family:main-font;
+    height:100%
+}
+/* Slide Show */
+#slide-two, #slide-three {
+    display:none
+}
+.slideshow {
+    position:relative;
+    height:1000px
+}
+.elements {
+    margin:0 auto;
+    position:absolute;
+    max-width:900px;
+    right:0;
+    left:0;
+    display:block;
+    color:#333;
+    opacity:0.6
+}
+.slideshow h1 {
+    font-size:44px;
+    text-align:center
+}
+#slide-one {
+    height:1000px;
+    background-image:url('../images/background-image-one.png');
+    background-size:cover
+}
+#slide-two {
+    height:1000px;
+    background-image:url('../images/background-image-two.png');
+    background-size:cover
+}
+#slide-three {
+    height:1000px;
+    background-image:url('../images/background-image-three.png');
+    background-size:cover
+}
+/* Search Box */
+.search-box {
+    margin:0 auto;
+    height:50px;
+    padding:20px 10px 0px 10px;
+    background:#FFF;
+    border:solid thin #333;
+    border-radius:5px;
+    -moz-border-radius:5px;
+    -webkit-border-radius:5px
+}
+.typed-one, .typed-two, .typed-three {
+    font-size:26px;
+    font-weight:200
+}
+/* Navigation search icons */
+nav {
+    margin:0 auto;
+    position:absolute;
+    right:0;
+    left:0;
+    width:20px;
+    top:21%;
+    padding:5px 20px 25px 10px;
+    height:10px;
+    z-index:2;
+    cursor:pointer;
+    background:#666;
+    border-radius:7px;
+    -moz-border-radius:7px;
+    -webkit-border-radius:7px;
+    opacity:0.6
+}
+nav:hover {
+    background:#FFF
+}
+nav li {
+    list-style:none;
+    display:inline;
+}
+/* More Info Arrow */
+.arrow-one, .arrow-two, .arrow-three {
+    margin:0 auto;
+    position:absolute;
+    right:0;
+    left:0;
+    top:27%;
+    z-index:2;
+    cursor:pointer;
+    width:200px;
+    height:60px;
+    padding:10px;
+    font-size:18px;
+    color:#FFF;
+    background:#666;
+    border-radius:7px;
+    -moz-border-radius:7px;
+    -webkit-border-radius:7px;
+    text-align:center;
+    opacity:0.6
+}
+.arrow-one:hover {
+    color:#000;
+    background:#FFF
+}
+.arrow-two:hover {
+    color:#000;
+    background:#FFF
+}
+.arrow-three:hover {
+    color:#000;
+    background:#FFF
+}
+/* Section Areas */
+.content-one {
+    height:1000px
+}
+.content-two {
+     height:1000px
+}
+.content-three {
+    height:1000px
+}
